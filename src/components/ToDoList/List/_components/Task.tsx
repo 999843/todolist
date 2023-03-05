@@ -33,7 +33,7 @@ const Task = ({ todo, handleRemove, handleChange }: PropsType) => {
                 title: e.target.value,
               })
             }
-            className="border pl-2 py-1"
+            className="pl-2 py-1 border shadow-md border-[#f3f3f3]"
           />
         ) : (
           <span className="text-lg">{todo.title}</span>
